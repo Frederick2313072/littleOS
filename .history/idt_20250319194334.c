@@ -1,11 +1,11 @@
 #include "idt.h"
 #include "device.h"
 
-static struct idt_entry idt[NUM_IRQS];
+// static struct idt_entry idt[NUM_IRQS];
 
 void init_idt(void)
 {
-	(void)idt;
+	// Future implementation
 }
 
 void interrupt_handler(struct cpu_state cpu,
